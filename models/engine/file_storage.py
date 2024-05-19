@@ -93,4 +93,3 @@ class FileStorage:
                          "text": str}
         }
         return attributes
-
