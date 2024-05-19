@@ -51,8 +51,7 @@ class TestFileStorage(unittest.TestCase):
 
         # Check if the file exists
         file_path = FileStorage._FileStorage__file_path
-        self.assertTrue(os.path.exists(file_path), "File not created after save()")
-
+        self.assertTrue(os.path.exists(file_path), " File not created after save()")
         # Read the content of the file
         with open(file_path, 'r') as file:
             content = file.read()
